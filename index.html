@@ -8,27 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="src/styles/index.css">
     <link rel="stylesheet" href="src/styles/navbar.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
     <title>Landing Page</title>
 </head>
 <body>
-  <header>
+    <header>
         <nav id="navbar">
-            <i class="fa-solid fa-money-check-dollar" id="nav_logo">bank</i>
+            <i class="fa-solid fa-money-check-dollar" id="nav_logo">Food</i>
             <ul id="nav_list">
                 <li class="nav-item active">
                     <a href="#home">inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">financeiro</a>
+                    <a href="#menu">pedidos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">avaliaçao</a>
+                    <a href="#testimonials">Nosso Cardapio</a>
                 </li>
             </ul>
             <button class="btn-default">
-                nos contate aqui
+                Fazer o Pedido
             </button>
 
             <button id="mobile_btn">
@@ -41,17 +43,169 @@
                     <a href="#home">inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">financeiro</a>
+                    <a href="#menu">pedidos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">avaliaçao</a>
+                    <a href="#testimonials">Nosso Cardapio</a>
                 </li>
             </ul>
            <button class="btn-default">
-                nos contate aqui
+                Fazer o Pedido
             </button>
         </div>
     </header>
+
+    <main id="content">
+
+        <sefction id="home">
+            <div class="shape">
+                
+            </div>
+            <div id="cta">
+                <h1 class="title">
+                    O Sabor vai até
+                    <span>Você</span>
+                </h1>
+
+                <p class="descricao">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero asperiores rem 
+                commodi repellat eos expedita laudantium consectetur
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Simular crédito
+                    </a>
+                    
+                    <a href="tel:+55555555555" id="phone_button">
+                        <buutton class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </buutton>
+                        (55) 47 9999-9999
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                     <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                     <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+            
+            <div id="banner">
+                <img src="src/img/hero.png" alt="">
+
+            </div>
+        </sefction>
+
+        <section id="menu">
+
+            <h2 class="section-title">Cardapios</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            
+            <div class="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/img/dish.png" alt="" class="dish-heart">
+                    <h3 class="dish-title">
+                        lorem ipsum
+                    </h3>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente beatae accusamus maiores deserunt. Unde sapiente tenetur fuga, amet nesciunt voluptates quia velit, sit voluptas ex suscipit officiis dolorem consequatur!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/dish2.png" class="dish-heart" alt="">
+                    <h3 class="dish-title">
+                        lorem ipsum
+                    </h3>
+                    <span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus dolor fugit suscipit temporibus, velit autem nobis ipsam totam esse nostrum quasi quibusdam assumenda dolore quaerat quos non culpa reprehenderit fuga!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 70,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                 <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/dish3.png" class="dish-heart" alt="">
+                    <h3 class="dish-title">
+                        lorem ipsum
+                    </h3>
+                    <span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus dolor fugit suscipit temporibus, velit autem nobis ipsam totam esse nostrum quasi quibusdam assumenda dolore quaerat quos non culpa reprehenderit fuga!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 70,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
     <script src="src/styles/javascript/index.js"></script>
 </body>
 </html>
